@@ -3,8 +3,8 @@ import './App.css'
 import { Routes,Route } from 'react-router-dom'
 import {Box} from '@mui/material'
 import NavBar from './components/NavBar'
-import Home from './components/pages/Home.js'
-import ExerciseDetails from './components/pages/ExerciseDetails.js'
+import Home from './pages/Home.js'
+import ExerciseDetails from './pages/ExerciseDetails.js'
 import Footer from './components/Footer.js'
 export default function App() {
   return (
