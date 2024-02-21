@@ -22,12 +22,12 @@ export default function SearchExercises({setExercises,bodyPart,setBodyPart}) {
     const exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises', exercisesOptions);
 
     
-    const searchedExercises = exercisesData.filter((item) =>
+   /* const searchedExercises = exercisesData.filter((item) =>
         item.name.includes(search) ||
         item.target.includes(search) ||
         item.equipment.includes(search) ||
         item.bodyPart.includes(search)
-    );
+    );*/
 
     window.scrollTo({ top: 1800, left: 100, behavior: 'smooth' });
 
