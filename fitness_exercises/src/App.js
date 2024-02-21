@@ -13,7 +13,7 @@ export default function App() {
            <NavBar/>
             <Routes>
                 <Route path='/' element={<Home/>}/>
-                <Route path='/exercise/:id' element={<ExerciseDetails/>}/>
+                <Route path='/exercise/:idExercise' element={<ExerciseDetails/>}/>
 
             </Routes>
             <Footer />
